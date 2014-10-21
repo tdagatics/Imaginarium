@@ -14,6 +14,7 @@
 		43E1DE0419F5E5870074E299 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E1DE0319F5E5870074E299 /* Images.xcassets */; };
 		43E1DE0719F5E5870074E299 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43E1DE0519F5E5870074E299 /* LaunchScreen.xib */; };
 		43E1DE1319F5E5870074E299 /* ImaginariumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E1DE1219F5E5870074E299 /* ImaginariumTests.m */; };
+		43E1DE1E19F5E5BA0074E299 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E1DE1D19F5E5BA0074E299 /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		43E1DE0C19F5E5870074E299 /* ImaginariumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImaginariumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E1DE1119F5E5870074E299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43E1DE1219F5E5870074E299 /* ImaginariumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumTests.m; sourceTree = "<group>"; };
+		43E1DE1C19F5E5BA0074E299 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = ../ImageViewController.h; sourceTree = "<group>"; };
+		43E1DE1D19F5E5BA0074E299 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = ../ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +84,8 @@
 		43E1DDF519F5E5870074E299 /* Imaginarium */ = {
 			isa = PBXGroup;
 			children = (
-				43E1DDFA19F5E5870074E299 /* AppDelegate.h */,
-				43E1DDFB19F5E5870074E299 /* AppDelegate.m */,
+				43E1DE1C19F5E5BA0074E299 /* ImageViewController.h */,
+				43E1DE1D19F5E5BA0074E299 /* ImageViewController.m */,
 				43E1DDFD19F5E5870074E299 /* ViewController.h */,
 				43E1DDFE19F5E5870074E299 /* ViewController.m */,
 				43E1DE0019F5E5870074E299 /* Main.storyboard */,
@@ -96,6 +99,8 @@
 		43E1DDF619F5E5870074E299 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				43E1DDFA19F5E5870074E299 /* AppDelegate.h */,
+				43E1DDFB19F5E5870074E299 /* AppDelegate.m */,
 				43E1DDF719F5E5870074E299 /* Info.plist */,
 				43E1DDF819F5E5870074E299 /* main.m */,
 			);
@@ -221,6 +226,7 @@
 			files = (
 				43E1DDFF19F5E5870074E299 /* ViewController.m in Sources */,
 				43E1DDFC19F5E5870074E299 /* AppDelegate.m in Sources */,
+				43E1DE1E19F5E5BA0074E299 /* ImageViewController.m in Sources */,
 				43E1DDF919F5E5870074E299 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
